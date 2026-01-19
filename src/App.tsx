@@ -3,7 +3,6 @@ import anime from 'animejs'
 import {
   Droplet,
   Leaf,
-  TrendingUp,
   Shield,
   Zap,
   ArrowRight,
