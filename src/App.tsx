@@ -129,18 +129,6 @@ function App() {
             GreenThread
           </div>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#dashboard" className="text-gray-700 hover:text-green-dark transition flex items-center gap-2">
-              <BarChart3 size={18} />
-              Dashboard
-            </a>
-            <a href="#news" className="text-gray-700 hover:text-green-dark transition flex items-center gap-2">
-              <FileText size={18} />
-              News
-            </a>
-            <a href="#trends" className="text-gray-700 hover:text-green-dark transition flex items-center gap-2">
-              <TrendingUp size={18} />
-              Trends
-            </a>
             <button className="bg-green-dark text-white px-6 py-2 rounded-full hover:bg-green-primary transition">
               Contact Us
             </button>
@@ -377,7 +365,7 @@ function App() {
           {/* Large Featured Image */}
           <div className="mt-8 relative overflow-hidden rounded-3xl h-96 shadow-2xl">
             <img
-              src="https://images.unsplash.com/photo-1584305113344-9fcd67b1cd26?w=1200&h=600&fit=crop"
+              src="https://images.unsplash.com/photo-1552440046-6b8b84f08e5c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Fern leaves pattern"
               className="w-full h-full object-cover"
             />
